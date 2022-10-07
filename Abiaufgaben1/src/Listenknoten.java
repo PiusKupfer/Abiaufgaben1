@@ -1,6 +1,6 @@
 
 
-public class Listenknoten <T> {
+	/*public class Listenknoten <T> {
    
 	public T daten;
     	public Listenknoten<T> nachfolger;
@@ -10,7 +10,7 @@ public class Listenknoten <T> {
         this.nachfolger=nachfolger;
     }
    
-    	/*
+    
     	public void enqueue(T x){
     		dieListe.anhaengen(x);
     	}
@@ -18,7 +18,7 @@ public class Listenknoten <T> {
     	public void dequeue(T x) {
     		T x =dieListe.get(0);
     	return x;
-    	}*/
+    
     	public void anhaengen(T val) {
     		if(anhaengen == null) {
     			anfang = new Listenknoten<T>(val,null);
@@ -30,4 +30,4 @@ public class Listenknoten <T> {
     			k.nachfolger = new Listenknoten<T>(val, null);
     		}
     	}
-}
+}	}*/
